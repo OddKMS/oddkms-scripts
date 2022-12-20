@@ -2,3 +2,7 @@
 	path = ./get-git-stale-branches
 	url = git@github.com:OddKMS/get-git-stale-branches.git
 	branch = main
+[submodule "turn-on-powertoys-awake"]
+	path = turn-on-powertoys-awake
+	url = git@github.com:OddKMS/turn-on-powertoys-awake.git
+	branch = main
