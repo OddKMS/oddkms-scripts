@@ -8,15 +8,15 @@ Function ConvertTimeToSeconds(value)
     ConvertTimeToSeconds = (((numOfHours * 60) * 60) + (numOfMinutes * 60) + numOfSeconds)
 End Function
 
-Dim dtNow, dtWorkDone, timeDiff, secondsUntilWorkIsOver
+Dim dtNow, dtWorkDone, timeUntilWorkIsOver
 
 dtNow = Time()
 dtWorkDone = "17:00:00"
-timeDiff = DateDiff("s", dtNow, dtWorkDone)
+timeUntilWorkIsOver = DateDiff("s", dtNow, dtWorkDone)
 
 Dim keepAwakeExe, displayOn, timeLimit
 displayOn = " --display-on "
-timeLimit = " --time-limit " & timeDiff & " "
+timeLimit = " --time-limit " & timeUntilWorkIsOver & " "
 keepAwakeExe = """C:\Program Files\PowerToys\modules\Awake\PowerToys.Awake.exe"""
 
-CreateObject("Wscript.Shell").Run keepAwakeExe & displayOn & timeLimit, 1, True
+CreateObject("Wscript.Shell").Run keepAwakeExe & displayOn & timeLimit, 0, False
