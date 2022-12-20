@@ -1,5 +1,5 @@
 [submodule "get-git-stale-branches"]
-	path = ./get-git-stale-branches
+	path = get-git-stale-branches
 	url = git@github.com:OddKMS/get-git-stale-branches.git
 	branch = main
 [submodule "turn-on-powertoys-awake"]
