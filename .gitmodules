@@ -6,3 +6,6 @@
 	path = turn-on-powertoys-awake
 	url = git@github.com:OddKMS/turn-on-powertoys-awake.git
 	branch = main
+[submodule "sync-windows-terminal-settings"]
+	path = sync-windows-terminal-settings
+	url = git@github.com:OddKMS/sync-windows-terminal-settings.git
