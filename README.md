@@ -16,6 +16,12 @@ This is to get a better result than simply converting the movie to .gif because 
 formats limitation. Without the palette, the gif will have some ugly artifacts due to
 colour compression
 
-## [Turn On Keep Awake](/turn-on-keep-awake/)
+## [Turn On Keep Awake](https://github.com/OddKMS/turn-on-keep-awake/)
 
 VBS Script to turn on the KeepAwake functionality in [Microsoft PowerToys](https://github.com/microsoft/PowerToys), and keep it on until my workday is over. 
+
+## [Sync Windows Terminal Settings](https://github.com/OddKMS/sync-windows-terminal-settings)
+
+Batch script for automatic uploading and downloading of [Windows Terminal](https://github.com/microsoft/terminal) settings.
+They are uploaded to OneDrive and kept in sync via a hard symlink. Just run the `upload` script from the
+computer you want to use settings from, `download` to the computer you want to sync to and you're all set.
