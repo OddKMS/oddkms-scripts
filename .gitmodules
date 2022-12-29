@@ -10,3 +10,6 @@
 [submodule "windows-cmd-aliases"]
 	path = windows-cmd-aliases
 	url = git@github.com:OddKMS/windows-cmd-aliases.git
+[submodule "windows-terminal-in-context-menu"]
+	path = windows-terminal-in-context-menu
+	url = git@github.com:OddKMS/windows-terminal-in-context-menu.git
