@@ -7,3 +7,6 @@
 [submodule "sync-windows-terminal-settings"]
 	path = sync-windows-terminal-settings
 	url = git@github.com:OddKMS/sync-windows-terminal-settings.git
+[submodule "windows-cmd-aliases"]
+	path = windows-cmd-aliases
+	url = git@github.com:OddKMS/windows-cmd-aliases.git
