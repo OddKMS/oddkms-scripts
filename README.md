@@ -27,6 +27,6 @@ They are uploaded to OneDrive and kept in sync via a hard symlink. Just run the 
 computer you want to use settings from, `download` to the computer you want to sync to and you're all set.
 
 
-## Windows CMD Aliases
+## [Windows CMD Aliases](/windows-cmd-aliases/)
 
 Exactly what it means. Adds Quality-of-Life aliases to CMD for me to use.
