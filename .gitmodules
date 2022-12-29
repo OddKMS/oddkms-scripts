@@ -1,11 +1,9 @@
 [submodule "get-git-stale-branches"]
 	path = get-git-stale-branches
 	url = git@github.com:OddKMS/get-git-stale-branches.git
-	branch = main
 [submodule "turn-on-powertoys-awake"]
 	path = turn-on-powertoys-awake
 	url = git@github.com:OddKMS/turn-on-powertoys-awake.git
-	branch = main
 [submodule "sync-windows-terminal-settings"]
 	path = sync-windows-terminal-settings
 	url = git@github.com:OddKMS/sync-windows-terminal-settings.git
