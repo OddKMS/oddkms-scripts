@@ -25,3 +25,8 @@ VBS Script to turn on the KeepAwake functionality in [Microsoft PowerToys](https
 Batch script for automatic uploading and downloading of [Windows Terminal](https://github.com/microsoft/terminal) settings.
 They are uploaded to OneDrive and kept in sync via a hard symlink. Just run the `upload` script from the
 computer you want to use settings from, `download` to the computer you want to sync to and you're all set.
+
+
+## Windows CMD Aliases
+
+Exactly what it means. Adds Quality-of-Life aliases to CMD for me to use.
